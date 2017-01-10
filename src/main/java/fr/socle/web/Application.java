@@ -23,7 +23,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class Application extends SpringBootServletInitializer implements ApplicationRunner  {
  
     @Autowired
-    private ServiceFacade userService;
+    private ServiceFacade userService;;
  
     public static void main(String[] args) {
     	ApplicationContext applicationContext = new SpringApplication(Application.class).run(args);
