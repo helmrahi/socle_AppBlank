@@ -1,0 +1,7 @@
+<user_list>
+	<user id="1000001" nom="TOTO" prenom="TARTOMPION">
+		<adresse>ROUTE NATIONALE</adresse>
+		<ville>SAINT-DENIS</ville>
+		
+	</user>
+</user_list>

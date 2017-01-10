@@ -1,0 +1,16 @@
+logging:
+  file: logs/dev_profile_app.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    org.springframework.web: DEBUG
+    guru.springframework.controllers: DEBUG
+    org.hibernate: DEBUG
+
+files:
+    base: D:/GL ERP/Socle_appBlank/app/data
+    in: ${files.base}/in
+    pattern: listeUsers_*.xml
+    done: done
+

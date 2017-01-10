@@ -1,0 +1,14 @@
+logging:
+  pattern:
+    console: "%msg%n"
+  level:
+    org.springframework.web: INFO
+    guru.springframework.controllers: INFO
+    org.hibernate: INFO
+    
+files:
+    base: D:/GL ERP/Socle_appBlank/app/data
+    in: ${files.base}/in
+    pattern: listeUsers_*.xml
+    done: done
+    

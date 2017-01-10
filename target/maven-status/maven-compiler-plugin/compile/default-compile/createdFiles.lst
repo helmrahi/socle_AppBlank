@@ -1,0 +1,8 @@
+main\java\fr\socle\web\ProcessXMLFilesRoutes.class
+main\java\fr\socle\web\Application.class
+main\java\fr\socle\web\crud\jpa\controller\UserController.class
+main\java\fr\socle\web\crud\jpa\service\UserService.class
+main\java\fr\socle\web\crud\jpa\da\UserDAO.class
+main\java\fr\socle\web\crud\jpa\service\ServiceFacade.class
+main\java\fr\socle\web\crud\jpa\model\ResponseObject.class
+main\java\fr\socle\web\crud\jpa\model\User.class
